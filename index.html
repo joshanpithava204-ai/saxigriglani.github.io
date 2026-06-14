@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +21,21 @@ body{
 background:#0b132b;
 color:white;
 line-height:1.6;
+}
+
+nav{
+background:#111827;
+padding:20px;
+text-align:center;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-weight:500;
 }
 
 .container{
@@ -45,7 +61,6 @@ margin-top:10px;
 
 header p{
 margin-top:20px;
-font-size:18px;
 color:#d9d9d9;
 }
 
@@ -55,9 +70,9 @@ padding:12px 25px;
 background:#FFD700;
 color:black;
 text-decoration:none;
-font-weight:bold;
 border-radius:8px;
-margin:20px 10px;
+margin:10px;
+font-weight:bold;
 }
 
 section{
@@ -75,77 +90,43 @@ background:#1c2541;
 padding:25px;
 border-radius:15px;
 margin-bottom:25px;
+transition:0.4s;
 }
 
-.card h3{
-margin-bottom:15px;
-}
-
-ul{
-padding-left:20px;
-}
-
-.skills{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.skill-box{
-background:#1c2541;
-padding:20px;
-border-radius:15px;
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0px 10px 25px rgba(255,215,0,0.3);
 }
 
 footer{
-text-align:center;
-padding:30px;
 background:#1c2541;
-margin-top:50px;
-}
-
-@media(max-width:768px){
-
-header h1{
-font-size:40px;
-}
-
-header h2{
-font-size:22px;
-}
-
-.section-title{
-font-size:30px;
-}
-
+padding:30px;
+text-align:center;
 }
 
 </style>
-
 </head>
+
 <body>
-<nav style="
-background:#111827;
-padding:20px;
-position:sticky;
-top:0;
-z-index:100;
-text-align:center;">
 
-<a href="#home" style="color:white;margin:20px;text-decoration:none;">Home</a>
+<nav>
 
-<a href="#about" style="color:white;margin:20px;text-decoration:none;">About</a>
+<a href="#home">Home</a>
 
-<a href="#experience" style="color:white;margin:20px;text-decoration:none;">Experience</a>
+<a href="#about">About</a>
 
-<a href="#skills" style="color:white;margin:20px;text-decoration:none;">Skills</a>
+<a href="#experience">Experience</a>
 
-<a href="#education" style="color:white;margin:20px;text-decoration:none;">Education</a>
+<a href="#skills">Skills</a>
 
-<a href="#contact" style="color:white;margin:20px;text-decoration:none;">Contact</a>
+<a href="#education">Education</a>
+
+<a href="#contact">Contact</a>
 
 </nav>
+
 <header id="home">
+
 <div class="container">
 
 <h1>SAXI S. GRIGLANI</h1>
@@ -156,54 +137,25 @@ text-align:center;">
 Financial Reporting | BAS & IAS Compliance | Payroll | Accounts Payable & Receivable
 </p>
 
-<a href="Saxi_Griglani_CV%20(1).pdf" class="btn" download>
+<a href="Saxi_Griglani_CV (1).pdf" class="btn" download>
 Download Resume
 </a>
-<a href="#contact" class="btn">Contact Me</a>
-<br><br>
 
-<a href="mailto:shaxigriglani150@gmail.com"
-style="
-display:inline-block;
-padding:12px 25px;
-background:#ffffff;
-color:black;
-text-decoration:none;
-border-radius:8px;
-margin:10px;">
-📧 Email
+<a href="mailto:shaxigriglani150@gmail.com" class="btn">
+Email
 </a>
 
-<a href="https://wa.me/916351874166"
-target="_blank"
-style="
-display:inline-block;
-padding:12px 25px;
-background:#25D366;
-color:white;
-text-decoration:none;
-border-radius:8px;
-margin:10px;">
-💬 WhatsApp
+<a href="https://wa.me/916351874166" class="btn">
+WhatsApp
 </a>
-
-<a href="https://linkedin.com/in/YOUR-LINKEDIN-URL"
-target="_blank"
-style="
-display:inline-block;
-padding:12px 25px;
-background:#0077B5;
-color:white;
-text-decoration:none;
-border-radius:8px;
-margin:10px;">
-</a>  
 
 </div>
+
 </header>
-
-
+```
+```html
 <section id="about">
+
 <div class="container">
 
 <h2 class="section-title">About Me</h2>
@@ -211,118 +163,124 @@ margin:10px;">
 <div class="card">
 
 <p>
-Results-driven Accounting & Finance Professional with 4+ years of experience in bookkeeping,
-financial reporting, payroll administration, BAS/IAS compliance, and cloud-based ERP platforms.
+Results-driven Accounting & Finance Professional with over four years of experience in bookkeeping,
+financial reporting, payroll administration, BAS/IAS compliance and cloud-based ERP platforms.
 Passionate about automation and delivering accurate financial insights.
 </p>
 
 </div>
 
 </div>
+
 </section>
 
-
-<section>
-<div class="container">
 
 <section id="experience">
 
-<div class="card">
+<div class="container">
 
-<h3>Auzin Advisory Pvt Ltd</h3>
-
-<h4>Accountant | Jan 2024 - Present</h4>
-
-<ul>
-
-<li>BAS & IAS Preparation</li>
-
-<li>Accounts Receivable & Payable</li>
-
-<li>Payroll Processing and STP</li>
-
-<li>MIS Reporting & Variance Analysis</li>
-
-<li>Cash Flow Forecasting</li>
-
-<li>Audit Support</li>
-
-<li>Internal Controls</li>
-
-</ul>
-
-</div>
-
+<h2 class="section-title">Professional Experience</h2>
 
 <div class="card">
 
-<h3>DB Engineers</h3>
+<h3>🏢 Auzin Advisory Pvt Ltd</h3>
 
-<h4>Accountant & HR Executive | Apr 2021 - Dec 2023</h4>
+<h4>Accountant | Jan 2024 – Present</h4>
 
-<ul>
+<p>
 
-<li>Bank Reconciliation</li>
+✔ BAS & IAS Preparation<br>
 
-<li>Payroll Processing</li>
+✔ Accounts Receivable & Payable<br>
 
-<li>TDS Compliance</li>
+✔ Payroll Processing & STP<br>
 
-<li>Profit & Loss Statement</li>
+✔ MIS Reporting & Variance Analysis<br>
 
-<li>Balance Sheet Preparation</li>
+✔ Cash Flow Forecasting<br>
 
-<li>HR Administration</li>
+✔ Audit Support & Internal Controls
 
-</ul>
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>🏢 DB Engineers</h3>
+
+<h4>Accountant & HR Executive | Apr 2021 – Dec 2023</h4>
+
+<p>
+
+✔ Accounting Entries<br>
+
+✔ Bank Reconciliation<br>
+
+✔ Payroll Processing<br>
+
+✔ TDS Compliance<br>
+
+✔ Profit & Loss Statements<br>
+
+✔ Balance Sheet Preparation<br>
+
+✔ HR Administration
+
+</p>
 
 </div>
 
 </div>
+
 </section>
 
-
-<section>
-
-<div class="container">
 
 <section id="skills">
 
-<div class="skills">
+<div class="container">
 
-<div class="skill-box">
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="card">
+
 <h3>ERP Platforms</h3>
+
 <p>
+
 Xero<br>
+
 QuickBooks<br>
-NetSuite<br>
-Zoho Books<br>
+
 MYOB<br>
+
+NetSuite<br>
+
+Zoho Books<br>
+
 Tally ERP 9
+
 </p>
+
 </div>
 
 
-<div class="skill-box">
+<div class="card">
+
 <h3>Reporting Tools</h3>
+
 <p>
+
 Dext<br>
+
 Hubdoc<br>
+
 Fathom Reporting<br>
+
 Joiin
-</p>
-</div>
 
-
-<div class="skill-box">
-<h3>MS Office</h3>
-<p>
-Excel<br>
-Word<br>
-PowerPoint<br>
-Outlook
 </p>
-</div>
 
 </div>
 
@@ -331,64 +289,40 @@ Outlook
 </section>
 
 
-<section>
+<section id="education">
 
 <div class="container">
 
-<section id="education">
+<h2 class="section-title">Education</h2>
 
 <div class="card">
 
-<h3>MBA (Finance/Accounting)</h3>
+<h3>MBA (Finance / Accounting)</h3>
 
-<p>SGVU Jaipur</p>
+<p>
 
-<p>CGPA : 8.05</p>
+SGVU Jaipur
+
+</p>
+
+<p>
+
+CGPA : 8.05
+
+</p>
 
 </div>
+
 
 <div class="card">
 
 <h3>Bachelor of Commerce</h3>
 
-<p>K.P. Evening Commerce College</p>
+<p>
 
-</div>
+K.P. Evening Commerce College
 
-</div>
-
-</section>
-
-
-<section>
-
-<div class="container">
-
-<h2 class="section-title">Core Competencies</h2>
-
-<div class="card">
-
-<ul>
-
-<li>Financial Reporting & Analysis</li>
-
-<li>Accounts Receivable & Payable Management</li>
-
-<li>BAS / IAS Preparation</li>
-
-<li>Payroll Administration</li>
-
-<li>Cash Flow Management</li>
-
-<li>Budget Forecasting</li>
-
-<li>Tax Compliance</li>
-
-<li>Internal Controls & Audit Support</li>
-
-<li>HR Operations & Statutory Compliance</li>
-
-</ul>
+</p>
 
 </div>
 
@@ -409,7 +343,7 @@ Outlook
 
 <p>📱 Mobile : +91 63518 74166</p>
 
-<p>📍 Location : Surat, Gujarat, India</p>
+<p>📍 Surat, Gujarat, India</p>
 
 </div>
 
@@ -421,10 +355,14 @@ Outlook
 <footer>
 
 <p>
+
 © 2026 Saxi S. Griglani | Accounting & Finance Professional
+
 </p>
 
 </footer>
 
 </body>
+
 </html>
+```
